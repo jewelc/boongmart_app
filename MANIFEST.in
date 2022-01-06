@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include boongmart_app *.css
+recursive-include boongmart_app *.csv
+recursive-include boongmart_app *.html
+recursive-include boongmart_app *.ico
+recursive-include boongmart_app *.js
+recursive-include boongmart_app *.json
+recursive-include boongmart_app *.md
+recursive-include boongmart_app *.png
+recursive-include boongmart_app *.py
+recursive-include boongmart_app *.svg
+recursive-include boongmart_app *.txt
+recursive-exclude boongmart_app *.pyc
